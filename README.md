@@ -216,13 +216,9 @@ compute:
 ## 4. Technology Stack
 
 ### Frontend
-- Vite
-- React 18
-- TypeScript
-- Tailwind CSS 3
-- `@xyflow/react` (React Flow) for the dependency graph
-- lucide-react (icons)
-- Vitest + Testing Library (unit/component tests)
+- FlutterDart
+- http
+- Web Sokets
 
 ### Backend
 - Node.js
