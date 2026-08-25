@@ -252,7 +252,7 @@ compute:
 
 ```bash
 git clone <your-repo-url>
-cd Urban_Infrastructure_Cascade_Simulator-main
+cd Urban_Infrastructure_Cascade_Simulator
 ```
 
 ### 2. Backend setup
@@ -266,14 +266,8 @@ cp .env.example .env   # then fill in DATABASE_URL, PORT, CORS_ORIGIN
 Run migrations and seed the deterministic demo network:
 
 ```bash
-npm run migrate
-npm run seed
-```
-
-Start the API in dev mode:
-
-```bash
-npm run dev
+flutter create . --platform=android
+flutter pub get
 ```
 
 > If `DATABASE_URL` is not reachable, the backend still starts and serves
@@ -283,9 +277,9 @@ npm run dev
 
 ```bash
 cd frontend
-npm install
+flutter create . --platform=android
 cp .env.example .env   # set VITE_API_URL to your backend URL
-npm run dev
+flutter run
 ```
 
 The app will be available at `http://localhost:5173` by default.
