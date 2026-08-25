@@ -346,7 +346,7 @@ Run all tests:
 
 ```bash
 # frontend
-cd frontend && npm run test
+cd frontend && flutter test
 
 # backend
 cd backend && npm run test
@@ -414,10 +414,7 @@ Manually verified on:
 
 | Name | Role |
 |---|---|
-| Aditya | Team Lead / Full-Stack Developer |
-| Mrunali | Developer |
-| Mohit | Developer |
-| Sneha | Developer |
+| Mohit | Android Developer & full stack|
 
 *(Update names/roles above to match final team credits before submission.)*
 
