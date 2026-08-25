@@ -42,7 +42,8 @@ app.*.map.json
 # Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
-/android/app/release
+/android/app/releas
+/androide
 
 # Widget Preview related
 .widget_preview/
